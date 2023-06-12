@@ -9,7 +9,6 @@ export const Form = styled.form`
 `;
 export const Label = styled.label`
   display: flex;
-  width: 200px;
   margin: 0 auto;
 `;
 
