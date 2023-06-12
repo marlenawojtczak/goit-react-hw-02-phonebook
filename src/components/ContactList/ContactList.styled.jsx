@@ -16,6 +16,14 @@ export const List = styled.ul`
   scrollbar-width: 1px;
   scrollbar-color: transparent transparent;
   font-size: 14px;
+  ::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
 `;
 
 export const Item = styled.li``;
@@ -29,4 +37,8 @@ export const Button = styled.button`
   background-color: #ff0000;
   padding: 5px 10px;
   border-radius: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: #d30202;
+  }
 `;

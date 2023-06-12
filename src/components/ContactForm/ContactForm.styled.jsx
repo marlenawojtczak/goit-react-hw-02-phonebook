@@ -17,7 +17,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  width: 230px;
+  width: 240px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -30,4 +30,8 @@ export const Button = styled.button`
   background-color: #009c4b;
   padding: 5px 10px;
   border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: #00953c;
+  }
 `;

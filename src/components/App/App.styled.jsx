@@ -23,7 +23,7 @@ export const Content = styled.div`
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  width: 300px;
+  width: 270px;
   position: relative;
 `;
 
